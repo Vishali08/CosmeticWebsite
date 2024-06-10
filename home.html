@@ -31,7 +31,7 @@
         localStorage.setItem('loginDialogClosed', 'true');
     };
 
-    // Add this function to clear local storage when the page is reloaded
+    //  Add this function to clear local storage when the page is reloaded
     window.onbeforeunload = function() {
         localStorage.removeItem('loginDialogClosed');
     };
