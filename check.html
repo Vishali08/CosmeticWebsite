@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        
+       
+    </script>
+    <style>
+        
+
+/* Add this CSS for the dialog box */
+.dialog {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    z-index: 1000;
+}
+
+.dialog-content {
+    text-align: center;
+}
+
+.dialog-content h2 {
+    margin-top: 0;
+}
+
+.dialog-content input[type="text"],
+.dialog-content input[type="password"],
+.dialog-content input[type="submit"] {
+    margin: 10px 0;
+    padding: 5px;
+    width: 200px;
+}
+
+/* Adjust the appearance of the modal header */
+.modal-header {
+    background-color: #FF69B4; /* Pink background color */
+    color: white; /* White text color */
+    border-bottom: none; /* Remove border at the bottom */
+}
+
+/* Adjust the appearance of the modal body */
+.modal-body {
+    padding: 20px; /* Add some padding */
+}
+
+/* Adjust the appearance of the modal footer */
+.modal-footer {
+    background-color: #f7f7f7; /* Light gray background color */
+    border-top: none; /* Remove border at the top */
+}
+
+/* Center the content of the modal footer */
+.modal-footer p, .modal-footer button {
+    text-align: center;
+}
+
+/* Adjust the appearance of the login form inputs */
+.modal-body input[type="text"],
+.modal-body input[type="password"] {
+    margin-bottom: 10px; /* Add some space between inputs */
+}
+
+/* Style the "OK" button */
+.modal-footer button.btn-primary {
+    background-color: #FF69B4; /* Pink background color */
+    border: none; /* Remove border */
+}
+
+/* Hover effect for the "OK" button */
+.modal-footer button.btn-primary:hover {
+    background-color: #be4c85; /* Darker pink background color */
+    color: white; /* White text color */
+}
+    </style>
+</head>
+<body>
+    <div id="loginDialog" class="dialog">
+        <div class="dialog-content">
+            <h2>Welcome to TrueBeauty!</h2>
+            <p>Please login first to enjoy the full experience.</p>
+            <!-- Add your login form here -->
+            <form>
+                <input type="text" name="username" placeholder="Username"><br>
+                <input type="password" name="password" placeholder="Password"><br>
+                <input type="submit" value="Login" onclick="disappear()">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

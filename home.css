@@ -1,0 +1,215 @@
+body{
+    font-family: "Oswald", sans-serif;
+}
+/* .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-12, .col-sm-1, .col-sm-10{
+    border: 1px solid black;
+}*/
+
+a href{
+    text-decoration: none;
+    
+}
+.r1{
+    text-align: center;
+}
+.r2{
+    position: sticky;
+    text-align: center;
+    height: 50px;
+}
+.r3{
+    height: 525px;
+}
+.r4{
+    text-align: center;
+}
+.r5{
+    text-align: center;
+    height: 300px;
+}
+.r7{
+    height: 350px;
+    background-color: #f7f7f7;
+}
+.r7 .col-sm-2{
+    padding: 20px;
+}
+.r7 .col-sm-4{
+    padding: 20px;
+}
+.footer1{
+    padding: 20px;
+    padding-left: 80px;
+}
+.r5 .row{
+    padding: 10px;
+    height: 300px;
+}
+.r5 .row .col-sm-3{
+    padding: 10px;
+}
+.r5 .row .col-sm-3 img{
+    height: 220px;
+}
+.r5 .row .col-sm-3 h6{
+    padding-top: 10px;
+}
+
+.r1c2{
+    padding: 10px;
+}
+.r2c2{
+    padding: 10px;
+}
+.r2c2 button{
+    font-size: 20px;
+    border: transparent;
+    background: transparent;
+    padding-left: 50px;
+    color: black;
+}
+
+.r2c2 button:hover {
+    color: #FF69B4;
+}
+.navi:hover{
+    color: #FF69B4;
+}
+.r6c1 img{
+    height: 95px;
+}
+.Mainlogo{
+    height: 70px;
+}
+.nlogo{
+    padding: 20px;
+}
+.nlogo i{
+font-size:20px;
+padding-left: 30px;
+}
+
+.logoss i{
+    padding-right: 25px;
+}
+
+.card-img-top{
+    height: 50%;
+    margin-top:20px;
+}
+
+.r10 {
+    position: relative;
+    background: url('row.png') no-repeat bottom center/cover;
+    height: 500px;
+    padding-top: 350px;
+}
+
+.r10 .col-sm-4 {
+    position: relative;
+
+}
+
+.blue-button {
+    background-color: #FF69B4;
+    color: white;
+    border: none;
+    border-radius: 50px; 
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 35%;
+}
+
+.blue-button:hover {
+    background-color: #be4c85;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+
+
+/* Add this CSS for the dialog box */
+.dialog {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    z-index: 1000;
+}
+
+.dialog-content {
+    text-align: center;
+}
+
+.dialog-content h2 {
+    margin-top: 0;
+}
+
+.dialog-content input[type="text"],
+.dialog-content input[type="password"],
+.dialog-content input[type="submit"] {
+    margin: 10px 0;
+    padding: 5px;
+    width: 200px;
+}
+
+/* Adjust the appearance of the modal header */
+.modal-header {
+    background-color: #FF69B4; /* Pink background color */
+    color: white; /* White text color */
+    border-bottom: none; /* Remove border at the bottom */
+}
+
+/* Adjust the appearance of the modal body */
+.modal-body {
+    padding: 20px; /* Add some padding */
+}
+
+/* Adjust the appearance of the modal footer */
+.modal-footer {
+    background-color: #f7f7f7; /* Light gray background color */
+    border-top: none; /* Remove border at the top */
+}
+
+/* Center the content of the modal footer */
+.modal-footer p, .modal-footer button {
+    text-align: center;
+}
+
+/* Adjust the appearance of the login form inputs */
+.modal-body input[type="text"],
+.modal-body input[type="password"] {
+    margin-bottom: 10px; /* Add some space between inputs */
+}
+
+/* Style the "OK" button */
+.modal-footer button.btn-primary {
+    background-color: #FF69B4; /* Pink background color */
+    border: none; /* Remove border */
+}
+
+/* Hover effect for the "OK" button */
+.modal-footer button.btn-primary:hover {
+    background-color: #be4c85; /* Darker pink background color */
+    color: white; /* White text color */
+}
+
+.close-button{
+    margin-left: 95%;
+   margin-bottom: 8%;
+}
